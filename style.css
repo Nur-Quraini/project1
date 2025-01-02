@@ -97,6 +97,25 @@ footer {
         margin: 10px;
     }
 }
+
+/* Style for the Repository Button */
+.repo-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px; /* Text size */
+    padding: 12px 20px; /* Padding around the text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.repo-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 /* About Section - Two Column Layout */
 .about-content {
     display: flex;
